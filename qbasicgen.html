@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My WebsitePAGE</title>
+
+  <style>
+    table { 
+        margin-left: auto;
+      margin-right: auto;
+        border-collapse: collapse;
+        background-color: rgba(150, 32, 97, 0.377);
+    }
+    table, th, td {
+        border: 2px solid black;
+        padding: 5px;
+    }
+    th, td {
+        width: 200px; /* Adjust the width as needed */
+        font-weight: bold;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .preformatted {
+        white-space: pre-wrap;
+        /* or white-space: pre-wrap; */ 
+        
+    }
+    .large-font {
+  font-size: 25px;
+font-display: left;
+}
+
+    
+</style>
+
+
+</head>
+
+<body onmousedown="return false" onselectstart="return false">
+  
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>S</span>A: <span>T</span>ECH</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="index.html#hero" data-after="Home">Home</a></li>
+            <li><a href="index.html#services" data-after="Service">Services</a></li>
+            <li><a href="index.html#projects" data-after="Projects">Projects</a></li>
+            <li><a href="index.html#about" data-after="About">About</a></li>
+            <li><a href="index.html#contact" data-after="Contact">Contact</a></li>
+            <li><a href="notes.html" data-after="Notes">Notes</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+  
+   <!-- About Section -->
+      <section id="about">
+        <div class="about container">
+          <div class="col-left">
+            <div class="about-img">
+              <img src="NOTE.jpg" alt="img">
+            </div>
+          </div>
+          <div class="col-right">
+            
+            
+            
+            <h1 class="section-title"> <span>QBASIC</span> REVIEW</h1><br>
+            <h2>SERIES QUESTIONS</h2>
+          
+            <div class="preformatted">
+            <p class="large-font">
+Program to get series of 1, 2, 4, 7, up to 15 terms 
+cls
+a=1
+d=1
+for i=1 to 15
+print a; 
+a= a + d
+d= d + 1
+next i
+end
+
+program to get series of 5, 10, 20, 35, upto 15th term
+cls
+a=5
+d=5
+for i=1 to 15
+print a;
+a=a + d
+d= d + 5
+next i
+end
+
+program to get series of 3, 33, 333, 3333, 33333
+cls
+a=3
+for i= 1 to 5
+print a;
+a= a * 10 + 3
+next i
+end
+
+program to get series of 33333, 3333, 333, 33,3
+Cls
+a = 33333
+For i = 1 To 5
+    Print a;
+    a = Int(a / 10)
+Next i
+End
+
+
+fibonacci series 1, 1, 2, 3, 5, upto 10th term
+Cls
+a = 1
+b = 1
+Print a; b;
+For i = 1 To 10
+    c = a + b
+    Print c;
+    a = b
+    b = c
+Next
+End
+                
+
+            </p>
+            
+            </div>
+
+
+            
+            <h2>PATTERN QUESTIONS</h2>
+            <div class="preformatted">
+            <p class="large-font">COMMING soonCOMMING soonCOMMING soon
+                COMMING soonCOMMING soonCOMMING soon
+                COMMING soonCOMMING soonCOMMING soon
+                COMMING soonCOMMING soonCOMMING soon
+                COMMING soonCOMMING soonCOMMING soon
+                COMMING soonCOMMING soonCOMMING soon
+                COMMING soonCOMMING soonCOMMING soon</p>
+            
+            </div>
+            
+
+
+            <h2>QUESTIONS RELATED TO NUMBERS</h2>
+            <div class="preformatted">
+            <p class="large-font">
+ 1.	Program to find the even numbers from 1 to 25t term
+Cls
+For i = 2 To 25 Step 2
+    Print i;
+Next i
+End
+
+
+2.	Program to print odd numbers from 25 to 1
+
+Cls
+For i = 25 To 1 Step -2
+    Print i;
+Next i
+End
+
+3.	Program to take input and check whether a number is odd or even
+
+Cls
+Input "give a number"; a
+If a Mod 2 = 0 Then
+    Print "even number"
+Else
+    Print "odd number"
+End If
+End
+
+
+
+4.	to input a number and find its factorial
+
+
+Cls
+Input "give a number"; a
+f = 1
+
+For i = 1 To a
+    f = f * i
+Next i
+Print f
+
+
+5.	to input 5 numbers and find greatest one among them
+
+Cls
+Dim num(5)
+max = 0
+
+For i = 1 To 5
+    Input "Enter number "; num(i)
+    If num(i) > max Then
+        max = num(i)
+    End If
+Next i
+
+Print "The greatest number is: "; max
+
+
+
+6.	to check whether input number is prime or composite
+
+
+cls
+          Input "ENTER ANY NUMBER"; n
+c = 0
+For i = 1 To n
+    If n Mod i = 0 Then c = c + 1
+Next i
+If c = 2 Then
+    Print " it IS PRIME NUMBER"
+Else
+    Print "it IS COMPOSITE NUMBER"
+End If
+End
+
+
+7.	to display whether a input number is positive or negative or zero.
+    
+Cls
+Input "Enter a number: ", num
+
+If num = 0 Then
+    Print "The number is zero."
+Else If num > 0 Then
+    Print "The number is positive."
+Else
+    Print "The number is negative."
+End If
+
+8.	to accept length of three rods and display if they can make a triangle or not
+
+Cls
+Input "Enter the length of first rod: ", a
+Input "Enter the length of second rod: ", b
+Input "Enter the length of third rod: ", c
+If (a + b > c) And (b + c > a) And (c + a > b) Then
+    Print "The given lengths can form a triangle."
+Else
+    Print "The given lengths cannot form a triangle."
+End If
+End 
+
+
+
+9.	to find the smallest number among ten numbers input by user
+
+Cls
+Dim num(10)
+min= 9999999
+
+For i = 1 To 10
+    Input "Enter number "; num(i)
+    If num(i) < min Then
+        min = num(i)
+    End If
+Next i
+
+Print "The smallest number is: "; min
+
+
+
+
+10.	to display the square root and cube root of numbers between 5 to 30
+Cls
+For n = 5 To 30
+    Print "Number: "; n
+    Print "Square Root: "; Sqr(n)
+    Print "Cube Root: "; n ^ (1 / 3)
+    Print
+Next n
+End
+
+
+
+
+
+d.
+
+2) to check if the number is perfect square or not 
+
+Cls
+Input "Enter a number: ", n
+
+root = n ^ (1 / 2)
+
+If root = Int(root) Then
+    Print "the given number is a perfect square."
+Else
+    Print "the given number is not a perfect square."
+End If
+
+
+
+3) to find the LCM and HCF of two integers
+
+
+Cls
+Input "Enter the first integer: ", num1
+Input "Enter the second integer: ", num2
+
+a = num1
+b = num2
+
+While b <> 0
+    temp = b
+    b = a Mod b
+    a = temp
+Wend
+
+hcf = a
+
+lcm = (num1 * num2) / hcf
+
+Print "The LCM   is "; lcm
+Print "The HCF is "; hcf
+
+
+
+4) to reverse a digit
+
+Cls
+Input "enter a digit"; n
+
+While n > 0
+    r = n Mod 10
+    rev = rev * 10 + r
+    n = Int(n / 10)
+Wend
+Print rev
+End
+
+
+
+5) To find the product of the digits in a multi-digit number
+
+Cls
+Input "Enter a multi-digit number: ", num
+p = 1
+
+While num > 0
+    digit = num Mod 10
+    p = p * digit
+    num = num \ 10
+Wend
+
+Print "Product of digits: "; p
+
+
+
+
+6) to check if a input multi-digit is Armstrong or not 
+
+Cls
+Input "Enter a multi-digit number: ", num
+n = num
+sum = 0
+
+While n > 0
+    digit = n Mod 10
+    sum = sum + digit ^ 3
+    n = n \ 10
+Wend
+
+If sum = num Then
+    Print "it is an Armstrong number."
+Else
+    Print "it is not an Armstrong number."
+End If
+
+
+
+7) to enter a multi-digit number and find the sum of its even digits
+     
+Cls
+Input "enter any number"; n
+s = 0
+While n <> 0
+    r = n Mod 10
+    If r Mod 2 = 0 Then s = s + r
+    n = n \ 10
+Wend
+Print "sum of even digits"; s
+End
+
+
+8) to enter a multi-digit number and find the sum of its ( reverse ) digits
+
+
+Cls
+Input "enter any number"; n
+s = 0
+While n <> 0
+    r = n Mod 10
+    s = s + r
+    n = n \ 10
+Wend
+Print "sum of even digits"; s
+End
+
+
+
+9) to check if a input multi-digit is palindrome or not 
+
+Input "enter a digit"; num
+
+n = num
+While n > 0
+    r = n Mod 10
+    rev = rev * 10 + r
+    n = Int(n / 10)
+Wend
+
+If rev = num Then
+    Print "palindrome"
+Else
+    Print "not palindrome"
+End If
+End 
+
+
+
+10) to enter a multi-digit number and find the sum of its odd digits
+     
+Cls
+Input "enter any number"; n
+s = 0
+While n <> 0
+    r = n Mod 10
+    If r Mod 2 = 1 Then s = s + r
+    n = n \ 10
+Wend
+Print "sum of odd digits"; s
+End
+
+
+              
+              </p>
+            
+            </div>
+
+
+            <h2>QUESTIONS RELATED TO ALPHABETS</h2>
+            <div class="preformatted">
+            <p class="large-font">
+To check if  a input string is palindrome or not
+Cls
+Input "enter a string "; a$
+For i = Len(a$) To 1 Step -1
+    b$ = b$ + Mid$(a$, i, 1)
+Next i
+If a$ = b$ Then
+    Print " this is palindrome "
+Else Print "not a palindrome "
+End If
+End
+
+            </p>
+            
+            </div>
+
+
+
+
+            <h1 class="section-title"> <span>MODULAR</span>  PROGRAMMING</h1><br>
+            
+
+            <h2></h2>
+            <div class="preformatted">
+            <p class="large-font">  
+to input number and check whether the given no. is prime or not.
+
+USING SUB PROCEDURE
+
+DECLARE SUB PRIME (N)
+INPUT "ENTER ANY NUMBER"; N
+CALL PRIME (N)
+END
+
+SUB PRIME (N)
+C = 0
+FOR I = 1 TO N
+IF N MOD I = 0 THEN C = C + 1
+NEXT I
+IF C = 2 THEN
+PRINT N; "IS PRIME NUMBER"
+ELSE
+PRINT N; "IS NOT PRIME NUMBER"
+END IF
+END SUB
+
+USING FUNCTION PROCEDURE
+
+DECLARE FUNCTION PRIME(N)
+CLS
+INPUT "ENTER ANY NUMBER"; N
+P = PRIME (N)
+IF P = 2 THEN
+PRINT N; "IS PRIME NUMBER"
+ELSE
+PRINT N; "IS NOT PRIME NUMBER"
+END IF
+END
+
+FUNCTION PRIME (N)
+C = 0
+FOR I = 1 TO N
+IF N MOD I = 0 THEN C = C + 1
+NEXT I
+PRIME = C
+END FUNCTION
+
+ to input number and check whether the given no. composite or not.
+USING SUB PROCEDURE
+
+DECLARE SUB COMPOSITE (N)
+INPUT "ENTER ANY NUMBER"; N
+CALL COMPOSITE (N)
+END
+
+SUB COMPOSITE (N)
+C = 0
+FOR I = 1 TO N
+IF N MOD I = 0 THEN C = C + 1
+NEXT I
+IF C < > 2 THEN
+PRINT N; "IS COMPOSITE NUMBER"
+ELSE
+PRINT N; "IS NOT COMPOSITE NUMBER"
+END IF
+END SUB
+
+USING FUNCTION PROCEDURE
+
+DECLARE FUNCTION COMPOSITE (N)
+CLS
+INPUT "ENTER ANY NUMBER"; N
+CO = COMPOSITE (N)
+IF CO < > 2 THEN
+PRINT N; "IS COMPOSITE NUMBER"
+ELSE
+PRINT N; "IS NOT COMPOSITE NUMBER"
+END IF
+END
+
+FUNCTION COMPOSITE (N)
+C = 0
+FOR I = 1 TO N
+IF N MOD I = 0 THEN C = C + 1
+NEXT I
+COMPOSITE = C
+END FUNCTION
+
+            </p>
+            
+            </div>
+
+
+            
+
+
+
+            <h1 class="section-title"> <span></span>  </h1><br>
+            
+
+            <h2>1. </h2>
+            <div class="preformatted">
+            <p class="large-font">
+
+            </p>
+            
+            </div>
+
+
+           
+            
+          </div>
+        </div>
+      </section>
+      <!-- End About Section -->
+
+
+      
+      <h1><a href="notes.html" class="cta">Previous Page</a></h1>
+  <!-- Footer -->
+  
+      <section id="footer">
+        <div class="footer container">
+          <div class="brand">
+            <h1><span>S</span>A: <span>T</span>ECH</h1>
+          </div>
+          <h2>SERVICES   HOME-PAGE</h2>
+          <footer>
+          <div class="social-icon">
+            <div class="social-item">
+              <a href="index.html#services"><img src="https://cdn-icons-png.flaticon.com/512/788/788903.png" class="footer-icon" onclick="animateIcon()"  /></a>
+            </div>
+            <div class="social-item">
+              <a href="index.html"><img src="https://cdn-icons-png.flaticon.com/512/4394/4394041.png" /></a>
+            </div>
+          </footer>
+            
+          </div>
+          <p>Copyright © 2022 SANGAM ACHARYA. All rights reserved</p>
+        </div>
+      </section>
+      <!-- End Footer -->
+      <script src="./JAVA.JS"></script>
+    </body>
+    
+    </html>
+    
+
+
+
