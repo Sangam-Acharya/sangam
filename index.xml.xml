@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<article lang="">
+  <para>
+    <note>
+      <remark>Header</remark>
+    </note>
+    <link linkend="">SA: TECH</link>
+  </para>
+  <orderedlist>
+    <listitem>
+      <para><link linkend="">Home</link> </para>
+    </listitem>
+    <listitem>
+      <para><link linkend="">Services</link> </para>
+    </listitem>
+    <listitem>
+      <para><link linkend="">Projects</link> </para>
+    </listitem>
+    <listitem>
+      <para><link linkend="">About</link> </para>
+    </listitem>
+    <listitem>
+      <para><link linkend="">Contact</link> </para>
+    </listitem>
+    <listitem>
+      <para><olink targetdocent="notes.html">Notes</olink> </para>
+    </listitem>
+  </orderedlist>
+  <para>
+    <emphasis>End Header</emphasis>
+    <emphasis>Hero Section</emphasis>
+    <emphasis>Er. Sangam</emphasis>
+  </para>
+  <para>
+    <emphasis>Acharya</emphasis>
+  </para>
+  <para>Tech </para>
+  <para><olink targetdocent="notes.html">N0TES AVAILABLE</olink> <link linkend="">SERVICES</link> <link linkend="">PROJECTS</link> </para>
+  <para><note><remark>End Hero Section</remark></note><note><remark>Service Section</remark></note>Services</para>
+  <para>Here to share knowledges on electronics, telecommunications and Computer projects</para>
+  <para>
+    <inlinegraphic fileref="https://cdn-icons-png.flaticon.com/512/2432/2432692.png" width="5.3335inch" depth="5.3335inch"/>
+  </para>
+  <sect1>
+    <title>ARDUINO TRAINNING</title>
+    <para>Arduino programmings for minor and major projects Arduino as ISP programmings Programmings in c and c++ Arduino IDE </para>
+    <para>
+      <inlinegraphic fileref="https://cdn-icons-png.flaticon.com/512/2905/2905997.png" width="5.3335inch" depth="5.3335inch"/>
+    </para>
+  </sect1>
+  <sect1>
+    <title>BASIC COMPUTER COURSE AND PROGARMMINGS WITH C &amp; C++</title>
+    <para>
+      <inlinegraphic fileref="https://cdn-icons-png.flaticon.com/512/6134/6134346.png" width="5.3335inch" depth="5.3335inch"/>
+    </para>
+  </sect1>
+  <sect1>
+    <title>ROBOTICS PROJECTS &amp; CLASS</title>
+    <para>Helps to accomplicsh mini and major projects on full or semi autonomously devices. Helps to learn about electronics sensors and modules. Helps to learn on IOT projects </para>
+    <para>
+      <inlinegraphic fileref="https://cdn-icons-png.flaticon.com/512/4152/4152018.png" width="5.3335inch" depth="5.3335inch"/>
+    </para>
+  </sect1>
+  <sect1>
+    <title>HARDWARE AND NETWORKING</title>
+    <para>All about computer hardware parts NetworkingDatabase </para>
+    <para><note><remark>End Service Section</remark></note><note><remark>Projects Section</remark></note>Recent Projects</para>
+  </sect1>
+  <sect1>
+    <title>
+      <emphasis>AUTOMATIC HYDROPONIC SYSTEM</emphasis>
+    </title>
+    <emphasis>AUTOMATIC HYDROPONIC SYSTEM</emphasis>
+    <para>This is my final year project during my bachelor in electronics engineering that involved developing an automated hydroponic system for cup-based plant cultivation. it focus to grow plants on nutrients and ph maintained flowing water via hollow pipes. The system maintained optimal pH levels and precise NPK fertilizer concentrations in flowing water within a hollow pipe. Key components included a pH sensor, NPK fertilizer control unit, microcontroller unit (MCU), actuators (solenoid valves and peristaltic pumps), and control software. The pH sensor monitored water acidity/alkalinity, and the MCU adjusted NPK flow rates based on sensor feedback.</para>
+    <para><inlinegraphic fileref="#hydroponic.jpg" width="0.7862inch" depth="0.3929inch"/> </para>
+  </sect1>
+  <sect1>
+    <title>
+      <emphasis>QUAD COPTER DRONE PROJECT</emphasis>
+    </title>
+    <emphasis>QUAD COPTER DRONE PROJECT</emphasis>
+    <para>During my work in the robotics field, I undertook an exciting project focused on building a quadcopter drone. Powered by the renowned KK2.1.5 flight controller. The components used in this project are; F-450 quard copter frame Bottom plate and Top plate, Motors: A2212/13T,1000KV, Propellers: (4) each pair comprise clockwise and counter clockwise, ESCs(electronic speed controller): (4) 30 Ampere, Flight controller: KK2.1.5 with cables and buzzers, Radio Transmitter, Radio receiver: FS-iA6B 2.4GHZ 6 channels, Battery: 2200mH 3 cell Li-PO with connector, and Battery charger</para>
+    <para><inlinegraphic fileref="#drone.jpg" width="0.7862inch" depth="0.3929inch"/> </para>
+  </sect1>
+  <sect1>
+    <title>
+      <emphasis>SMART DOOR LOCKING SYSTEM USING FINGER PRINT</emphasis>
+    </title>
+    <emphasis>SMART DOOR LOCKING SYSTEM USING FINGER PRINT</emphasis>
+    <para>This is my 3rd year project during my bachelor in electronics engineering that involved developing an advanced smart lock system using mobile device fingerprint authentication through a Bluetooth module. The system was designed to be economical and modern, incorporating software development using platforms like Kodular and hardware programming using the Arduino IDE. </para>
+    <para><inlinegraphic fileref="#figerprint.jpg" width="0.7862inch" depth="0.3929inch"/> </para>
+  </sect1>
+  <sect1>
+    <title>
+      <emphasis>ARDUINO AS ISP PROGRAMMING</emphasis>
+    </title>
+    <emphasis>ARDUINO AS ISP PROGRAMMING</emphasis>
+    <para>Using an Arduino as an ISP can be helpful in situations where we want to program multiple microcontrollers or when we have a microcontroller without a built-in USB interface. It allows us to leverage the convenience and user-friendly programming environment of the Arduino platform to program other microcontrollers.The process involves uploading the Arduino ISP sketch to the Arduino board, connecting the target microcontroller to the Arduino using appropriate wiring, and then using the Arduino IDE or other programming software to transfer the desired code onto the target microcontroller.</para>
+    <para><inlinegraphic fileref="#isp11.jpg" width="0.7862inch" depth="0.3929inch"/> </para>
+  </sect1>
+  <sect1>
+    <title>
+      <emphasis>SMART LOCK USING RFID</emphasis>
+    </title>
+    <emphasis>SMART LOCK USING RFID</emphasis>
+    <para>The objective was to create a secure and convenient access control solution. The key components of the project included an RFID reader, electronic lock mechanism, arduino as microcontroller unit, and a user interface. The electronic lock mechanism was controlled by the microcontroller and was responsible for locking and unlocking the door. When an authorized RFID tag was detected, the microcontroller sent a signal to unlock the door, allowing access.</para>
+    <para><inlinegraphic fileref="#RFID.jpg" width="0.7862inch" depth="0.3929inch"/> </para>
+    <para><note><remark>End Projects Section</remark></note><note><remark>About Section</remark></note><inlinegraphic fileref="#IMG_7612.JPG" width="0.7862inch" depth="0.3929inch"/> </para>
+    <para>About me</para>
+  </sect1>
+  <sect1>
+    <title>Electronics Engineer</title>
+    <para>Professionally worked as a robotics projects mentor and STEAM ECA teacher for seeking expertise in own electronics field. I have completed my Bachelor's in Electronics Engineering. In my role, I combine my background as an electronics engineer with my passion for science and mathematics to engage and inspire students in the robotics and technological studies . Through hands-on activities, interactive lessons, and project-based learning, I strive to create a stimulating learning environment that encourages curiosity, critical thinking, and problem-solving skills.As a humble learner, I strive to acquire knowledge and grow within my field, approaching it with sincerity and a genuine desire to improve.</para>
+    <para><link linkend="">HOME PAGE</link> </para>
+    <para><note><remark>End About Section</remark></note><note><remark>Contact Section</remark></note>Contact info</para>
+    <para>
+      <inlinegraphic fileref="https://cdn-icons-png.flaticon.com/512/3287/3287868.png" width="5.3335inch" depth="5.3335inch"/>
+    </para>
+    <para>PHONE</para>
+  </sect1>
+  <sect1>
+    <title>+9779860416103</title>
+    <para>
+      <inlinegraphic fileref="https://cdn-icons-png.flaticon.com/512/3178/3178283.png" width="5.3335inch" depth="5.3335inch"/>
+    </para>
+    <para>EMAIL</para>
+  </sect1>
+  <sect1>
+    <title>sangamacharya35@gmail.com</title>
+    <para>
+      <inlinegraphic fileref="https://cdn-icons-png.flaticon.com/512/6948/6948631.png" width="5.3335inch" depth="5.3335inch"/>
+    </para>
+    <para>Address</para>
+  </sect1>
+  <sect1>
+    <title>LUMBINI PRADESH GHORAHI DANG</title>
+    <para><note><remark>End Contact Section</remark></note><note><remark>Footer</remark></note>SA: TECH</para>
+  </sect1>
+  <sect1>
+    <title>SERVICES NOTES</title>
+    <para><inlinegraphic fileref="https://cdn-icons-png.flaticon.com/512/788/788903.png" width="5.3543inch" depth="5.3543inch"/> </para>
+    <para><inlinegraphic fileref="https://cdn-icons-png.flaticon.com/512/6475/6475976.png" width="5.3543inch" depth="5.3543inch"/> </para>
+    <para>Copyright © 2022 SANGAM ACHARYA. All rights reserved</para>
+    <para>
+      <note>
+        <remark>End Footer</remark>
+      </note>
+    </para>
+  </sect1>
+</article>
