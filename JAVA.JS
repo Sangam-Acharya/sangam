@@ -48,33 +48,5 @@ document.addEventListener("contextmenu", function (e) {
   };
 
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 
-public class RestrictScreenshot {
-    public static void main(String[] args) {
-        // Set path to ChromeDriver executable
-        System.setProperty("webdriver.chrome.driver", "path_to_chromedriver");
-
-        // Disable headless mode
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--disable-extensions");
-        options.addArguments("--disable-gpu");
-        options.addArguments("--no-sandbox");
-        options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--headless");
-
-        // Initialize ChromeDriver with options
-        WebDriver driver = new ChromeDriver(options);
-
-        // Navigate to the website
-        driver.get("https://example.com");
-
-        // Additional code for website interactions or testing
-
-        // Close the WebDriver
-        driver.quit();
-    }
-}
 
