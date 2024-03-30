@@ -46,7 +46,3 @@ document.addEventListener("contextmenu", function (e) {
 	  return false;
 	}
   };
-
-
-
-
