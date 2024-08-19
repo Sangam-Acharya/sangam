@@ -134,7 +134,7 @@ Cls
 a = 1
 b = 1
 Print a; b;
-For i = 1 To 10
+For i = 1 To 8
     c = a + b
     Print c;
     a = b
@@ -214,6 +214,7 @@ For i = 1 To a
     f = f * i
 Next i
 Print f
+end
 
 
 5.	to input 5 numbers and find greatest one among them
@@ -230,6 +231,8 @@ For i = 1 To 5
 Next i
 
 Print "The greatest number is: "; max
+end
+              
 
 
 
@@ -257,12 +260,13 @@ Input "Enter a number: ", num
 
 If num = 0 Then
     Print "The number is zero."
-Else If num > 0 Then
+ElseIf num > 0 Then
     Print "The number is positive."
 Else
     Print "The number is negative."
 End If
-
+End
+              
 8.	to accept length of three rods and display if they can make a triangle or not
 
 Cls
@@ -292,7 +296,7 @@ For i = 1 To 10
 Next i
 
 Print "The smallest number is: "; min
-
+End
 
 
 
@@ -307,26 +311,8 @@ Next n
 End
 
 
-11.write QBASIC program to print the following pattern
-      
-1
-2       6
-3       7        10
-4       8        11       13
-5       9        12       14       15
 
-For i = 1 To 5
-    a = i
-    d = 4
-    For j = 1 To i
-        Print a;
-        a = a + d
-        d = d - 1
-    Next j
-    Print
-Next i
-End
-
+  
 
 
 
@@ -346,7 +332,7 @@ If root = Int(root) Then
 Else
     Print "the given number is not a perfect square."
 End If
-
+END
 
 
 3) to find the LCM and HCF of two integers
@@ -402,7 +388,7 @@ While num > 0
 Wend
 
 Print "Product of digits: "; p
-
+END
 
 
 
@@ -424,8 +410,7 @@ If sum = num Then
 Else
     Print "it is not an Armstrong number."
 End If
-
-
+End
 
 7) to enter a multi-digit number and find the sum of its even digits
      
